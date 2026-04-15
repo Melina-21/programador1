@@ -23,5 +23,6 @@ h2{
 #caja1{
     border: 3px solid grey;
     padding-left: 10px;
-    justify-content: flex-end;
+    margin-right: 700px;
+    margin-left: 10px;
 }
