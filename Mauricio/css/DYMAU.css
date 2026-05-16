@@ -1,0 +1,34 @@
+footer {
+    background-color: #aaa;
+    
+}
+
+.hero {
+    background: url(../img/lavabo.jpg) no-repeat;
+    background-size:cover;
+    height: 10px;
+    min-height: 600px;
+    color: rgb(23, 22, 22);
+   
+}
+
+.h2 {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+    .scroll_section {
+        scroll-margin-top: 60px;
+    }
+
+    .colecciones{
+        display: flex;
+        
+        
+    }
+    .titulo{
+        text-align: center;
+        margin-top: 20px;
+    }
