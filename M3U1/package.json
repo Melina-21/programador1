@@ -1,6 +1,7 @@
 {
   "name": "m3u1",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
   },

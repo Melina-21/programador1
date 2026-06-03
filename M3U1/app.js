@@ -22,6 +22,23 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+
+app.get('novedades', function (req, res) {
+  res.send('hola soy la pagina de novedades')
+})
+
+app.get('nosotros', function (req, res) {
+  res.send('hola soy la pagina de nosotros')
+})
+
+app.get('conocenos', function (req, res) {
+  res.send('hola soy la pagina de conocenos')
+})
+
+app.get('historia', function (req, res) {
+  res.send('hola soy la pagina de historia')
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
